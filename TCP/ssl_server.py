@@ -3,7 +3,7 @@ import os
 import threading
 import ssl
 
-SONGS_DIRECTORY = "C:/Users/tejuc/OneDrive/Desktop/songs"
+SONGS_DIRECTORY = "C:/Users/sushma/OneDrive/Desktop/songs"
 
 def send_audio(connection, address, song_name):
     song_path = os.path.join(SONGS_DIRECTORY, song_name)
